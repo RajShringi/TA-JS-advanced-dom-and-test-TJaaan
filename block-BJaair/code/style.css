@@ -150,6 +150,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -158,6 +159,7 @@ body {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   flex: 0 1 30%;
   background: #faf3b2;
+  margin-bottom: 1rem;
 }
 
 h3 {
