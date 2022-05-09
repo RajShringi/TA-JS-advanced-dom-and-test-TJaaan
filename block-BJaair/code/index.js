@@ -39,11 +39,11 @@ function createUI() {
     let li = document.createElement("li");
     li.classList.add("card");
     let h3 = document.createElement("h3");
-    h3.addEventListener("click", handleClick);
+    h3.addEventListener("dblclick", handleClick);
     h3.setAttribute("data-id", task.id);
     h3.innerText = task.title;
     let p = document.createElement("p");
-    p.addEventListener("click", handleClick);
+    p.addEventListener("dblclick", handleClick);
     p.setAttribute("data-id", task.id);
     p.innerText = task.category;
     li.append(p, h3);
